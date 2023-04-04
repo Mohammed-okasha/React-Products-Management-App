@@ -6,3 +6,4 @@ Project Features:
 - Delete product or Delete All Products
 - Filter Products By Category
 - View Product Details
+- forms validation 
