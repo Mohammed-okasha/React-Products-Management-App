@@ -1,0 +1,27 @@
+.formControl input {
+  width: 100%;
+  padding: 10px 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  caret-color: var(--green);
+  transition: 0.3s;
+}
+
+.formControl input:focus {
+  outline: none;
+  border: 1px solid var(--green);
+}
+
+.formControl input::placeholder {
+  text-transform: capitalize;
+}
+
+.formControl input.invalid {
+  border: 1px solid red;
+}
+
+.error-msg {
+  color: red;
+  font-size: 13px;
+  padding-top: 0.25rem;
+}

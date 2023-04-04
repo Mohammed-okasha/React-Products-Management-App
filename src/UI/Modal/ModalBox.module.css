@@ -1,0 +1,22 @@
+.modalBox {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  max-width: 800px;
+  width: 95%;
+  animation: popup 0.4s ease-out forwards;
+  z-index: 10;
+}
+
+@keyframes popup {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.04);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}

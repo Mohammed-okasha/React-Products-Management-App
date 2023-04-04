@@ -1,0 +1,31 @@
+.productsTable {
+  overflow: auto;
+}
+
+.productsTable table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.productsTable table thead {
+  background-color: #d6cda4;
+}
+
+.productsTable table tbody {
+  background-color: var(--white);
+}
+
+.productsTable table tbody tr:not(:last-child) {
+  border-bottom: 1px solid #dadada;
+}
+
+.productsTable table thead th,
+.productsTable table tbody td {
+  padding: 1rem 0.75rem;
+  text-align: center;
+}
+
+.productsTable table tbody td {
+  font-size: 14px;
+  font-weight: 500;
+}

@@ -1,0 +1,32 @@
+.card {
+  text-align: center;
+}
+
+.icon {
+  display: grid;
+  place-items: center;
+  width: 70px;
+  height: 70px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.icon svg {
+  font-size: 2rem;
+  color: red;
+}
+
+.confirm-msg,
+.confirmActions {
+  text-align: center;
+}
+
+.confirm-msg {
+  margin: 1rem 0 1.5rem;
+  overflow-wrap: break-word;
+}
+
+.confirmActions button:first-child {
+  margin-right: 1rem;
+}

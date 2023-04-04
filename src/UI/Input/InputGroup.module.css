@@ -1,0 +1,17 @@
+.inputGroup {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.inputGroup > * {
+  flex: 1 0 0;
+}
+
+@media (max-width: 600px) {
+  .inputGroup {
+    flex-flow: column;
+    align-items: stretch;
+  }
+}

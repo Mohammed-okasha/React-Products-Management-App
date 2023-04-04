@@ -1,0 +1,15 @@
+.productList {
+  margin-bottom: 1rem;
+}
+
+.productList li {
+  font-weight: 500;
+}
+
+.productList li:not(:last-child) {
+  padding-bottom: 0.25rem;
+}
+
+.productList li strong {
+  color: var(--green);
+}

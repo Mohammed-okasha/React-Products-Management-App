@@ -1,0 +1,27 @@
+.productActions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.productActions button {
+  width: 30px;
+  height: 30px;
+  background-color: var(--green);
+  color: var(--white);
+  border: none;
+  border-radius: 0.25rem;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.productActions button:hover {
+  background-color: var(--hover);
+}
+
+.productActions button svg {
+  display: table;
+  margin: 0 auto;
+}

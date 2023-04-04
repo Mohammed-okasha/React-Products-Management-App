@@ -1,0 +1,18 @@
+.form-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.form-actions div button:first-child {
+  margin-right: 1rem;
+}
+
+.form-actions .total-price {
+  display: inline-block;
+  background-color: #d6cda4;
+  padding: 2px 5px;
+  margin-left: 0.25rem;
+  border-radius: 0.25rem;
+}

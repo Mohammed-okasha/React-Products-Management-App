@@ -1,0 +1,39 @@
+.filterProducts {
+  margin-top: 2rem;
+}
+
+.filterProducts div select {
+  width: 100%;
+  padding: 10px 1rem;
+  text-transform: capitalize;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+}
+
+.filterProducts div select:disabled {
+  background-color: #fff;
+  cursor: not-allowed;
+}
+
+.filterProducts div select,
+.filterProducts div select option {
+  font-weight: bold;
+}
+
+.filterProducts div select:focus {
+  outline: none;
+}
+
+.filterProducts h4 {
+  color: var(--beige);
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 650px) {
+  .filterProducts {
+    flex-flow: column;
+    align-items: stretch;
+  }
+}
